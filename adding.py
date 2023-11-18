@@ -1,6 +1,6 @@
 class adding:
 
     def add(self):
-        print("Hello")
+        print(2+2)
 addition = adding()
 print(addition.add())
