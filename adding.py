@@ -1,6 +1,13 @@
-class adding:
+import sys
 
-    def add(self):
-        print(2+2)
+class adding:
+    def add(self, number):
+        return number + 2
+
+# Create an instance of the adding class
 addition = adding()
-print(addition.add())
+
+if len(sys.argv) > 1:
+    input_num = int(sys.argv[1])
+
+print(addition.add(input_num))
